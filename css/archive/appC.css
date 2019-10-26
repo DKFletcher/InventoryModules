@@ -1,0 +1,368 @@
+/* 
+    Created on : 16-Jul-2016, 11:00:59
+    Author     : donaldFletcher
+*/
+nav.navCon {
+    text-align: centre;
+    margin: 0;
+    padding: 0;
+    background-color: #254441;
+}
+nav.navCon ul li {
+    margin: 0px;
+    display: inline-block;
+    float: left;
+    background-color: #254441;
+}
+form{
+    text-align: center;
+}
+.control{
+    width: 100%;
+    float: left;
+}
+.itemDisplay{
+    width: 100%;
+    float: right;
+    color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+    padding-bottom: 0.5em;
+    margin-bottom: -0.5em;
+}
+.navIt{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    background-color: #00795f;
+    padding: none;
+    border: none;
+    outline: none;
+}
+.buttonRev {
+    float: left;
+    display: inline-block;
+    /*    padding: none;
+        border: none; */
+    background-color: #000000; /* Green */
+    color: #cccccc;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 52px;
+    margin-top: -0.1em;
+    border: none;
+    cursor: pointer;
+}
+.buttonRev:hover {
+    background-color: #196166;
+    color: #ccccc;
+}
+.buttonRev:focus {
+    outline: 0;
+}
+.button{
+    float: left;
+    width: 50%;
+    display: inline-block;
+    border: 1px;
+    cursor: pointer;
+}
+.buttonFfwd {
+    float: left;
+    display: inline-block;
+    /*    padding: none;
+        border: none;*/
+    background-color: #000000; /* Green */
+    color: #cccccc;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 52px;
+    margin-top: -0.1em;
+    border: none;
+    cursor: pointer;
+}
+.buttonFfwd:hover {
+    background-color: #196166;
+    color: #cccccc;
+}
+.buttonFfwd:focus {
+    outline: 0;
+}
+.ender{
+    float: none;
+    display: inline-block;
+    background-color: #00795f; /* Green */
+    /*    color: #cccccc;*/
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    margin-top: 0.4em;
+}
+
+.progRoc{
+    float: none;
+    display: inline-block;
+    background-color: #00795f; /* Green */
+    /*    color: #cccccc;*/
+    width: 100%;
+}
+.progButOff {
+    float: left;
+    display: inline-block;
+    /*    padding: none;
+        border: none;*/
+    background-color: #000000;/*#00795f; /* Green */
+    width: 6.25%;
+    height: 20px;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-bottom: -0.3em;
+}
+.progBut {
+    float: left;
+    display: inline-block;
+    /*    padding: none;
+        border: none;*/
+    background-color: #000000;/*#00795f; /* Green */
+    width: 6.25%;
+    height: 20px;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer; 
+    margin-bottom: -0.3em;
+}.progBut:hover {
+    background-color: #196166;
+}
+.progButUp{
+    background-color: #196166;
+}
+.progButUsed{
+    background-color: #00795f;
+}
+
+.rateRoc{
+    float: none;
+    display: inline-block;
+    background-color: Transparent; /* Green */
+    /*    color: #cccccc;*/
+    width: 100%;
+}
+.rateBut {
+    float: left;
+    display: inline-block;
+    width: 6.25%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer; 
+    margin-bottom: -0.9em;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    border-radius: 50px;
+}
+.rateBut:hover {
+    background-color: #000000;
+    color: #f1f1f1;
+}
+.rateButOff{
+    background-color: transparent;
+    color: #000000;
+}
+.rateButOn{
+    background-color: #00ff00;
+    color: #000000;
+}
+.commentText{
+    background: url("..//images/wml2/comments.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-color: #ededed;
+    text-indent: 20px;
+    margin: none;
+    border: none;
+    height: 100px;
+    rows: 5;
+    padding: 0;
+    outline: none;
+    resize: none;
+    width: 100%;
+}
+.genComText{
+    background: url("..//images/wml2/generalComments.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-color: #ffffbf;
+    text-indent: 20px;
+    margin: none;
+    border: none;
+    height: 100px;
+    rows: 5;
+    padding: 0;
+    outline: none;
+    resize: none;
+    width: 100%;
+}
+.item{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+}
+.park{
+    opacity: 1;
+    background: none;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;    
+}
+.on{
+    opacity: 1;
+    background-color: #c3eedf;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;    
+}
+.off{
+    opacity: 0.15;
+    background: none;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;    
+
+}
+.redFlag{
+    opacity: 1;
+    background-color: #ffebf6;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;    
+
+}
+.itemFocusOn{        
+    border-top-style: solid;       
+    border-bottom-style: solid;        
+    border-width: 1px;
+}
+section.instructions{  
+    margin-top: -2em;
+}
+.qC{
+    text-align: center;
+}
+canvas#ringG{
+    background-color: #ffbfbf;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 400px;
+    height: 200px;
+}
+section.beginEnd{
+    height:  225px;
+}
+hr.qNavSep{
+
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    border-style: inset;
+    border-width: 0px;
+}
+.previewer{
+    border: none;
+}
+.qCon{}
+.pdfobject-container{
+    height: 500px;
+}
+h4{
+    padding: 0px;
+    margin-top: -1.5em;
+    font-size: x-small;
+    text-align: right;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    color: black;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}

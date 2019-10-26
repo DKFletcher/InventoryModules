@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-Feb-2017, 06:53:18
+    Author     : donaldFletcher
+*/
+
+.rateButE {
+    font-size: 24px;
+    width: 100%;
+    border: none;
+    min-height: 7em;
+    outline:#f1f1f1;
+    cursor: pointer; 
+    margin: 0px 0px 0px 0px;
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+    /*border-radius: 50px;*/
+}
+
+.rateButModal {
+    background-color: lightgray;
+    text-align: center;
+    width: 40%;
+    font-size: 24px;
+    border: none;
+    display: inline-block;
+    height: 40px;
+    outline:#f1f1f1;
+    cursor: pointer; 
+    margin-bottom: -0.9em;
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+    /*border-radius: 50px;*/
+}
+.rateButModal#mOK{
+    /*width: 20%;*/
+    height: 40px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 18px;
+    
+}
+.rateButE#p1 {
+    background-color: #ffebf6;
+}
+.rateButE#p2 {
+    background-color: #c4d1e3;
+}.rateButE#except {
+    background-color: #c3eedf;
+}
+.rateButE:hover {
+    border: 1px solid #cfd1e3;
+    background-color: #fffce3;
+    color: #c4d1e3;
+}
+.rateButE#p1:hover {
+    border: 1px solid #cfd1e3;
+    background-color: #fffce3;
+    color: #c4d1e3;
+}
+.rateButE#p2:hover {
+    border: 1px solid #cfd1e3;
+    background-color: #fffce3;
+    color: #c4d1e3;
+}
+.rateButE#except:hover {
+    border: 1px solid #cfd1e3;
+    background-color: #fffce3;
+    color: #c4d1e3;
+}
+.rateButEOff{
+    background-color: transparent;
+    color: #000000;
+}
+.rateButEOn{
+    background-color: #00ff00;
+    color: #000000;
+}
+.iMap{
+    text-align: center;
+}
+@media all and (max-width : 768px) {
+    .rateButE {
+    font-size: 12px;
+    height: 40px;
+    }
+}

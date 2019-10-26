@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16-Feb-2017, 06:53:18
+    Author     : donaldFletcher
+*/
+#jsgrid{
+    -webkit-backface-visibility: hidden;
+}
+input.reppT{
+    font-size: 24px;
+    border: none;
+    height: 80px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+}
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;  
+}
+::-moz-placeholder {
+   font-style: italic;  
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
+}
+.rateButE {
+    font-size: 24px;
+    border: none;
+    display: inline-block;
+    height: 80px;
+    outline:#f1f1f1;
+    cursor: pointer; 
+    margin-bottom: -0.9em;
+    margin-top: -0.23em;
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+    /*border-radius: 50px;*/
+}
+.rateButE#mOK{
+    height: 40px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 18px;
+    
+}
+.rateButE#mCA{
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    font-size: 18px;
+    float: right;
+    
+}
+.rateButE#p1 {
+    background-color: #ffff00;
+}
+.rateButE#p2 {
+    background-color: #ff0000;
+}.rateButE#except {
+    background-color: #00ff00;
+}
+.rateButE:hover {
+    background-color: #000000;
+    color: #f1f1f1;
+}
+.rateButE#p1:hover {
+    border: 1px solid #f1f1f1;
+    background-color: #000000;
+    color: #f1f1f1;
+}
+.rateButE#p2:hover {
+    border: 1px solid #f1f1f1;
+    background-color: #000000;
+    color: #f1f1f1;
+}
+.rateButE#except:hover {
+    border: 1px solid #f1f1f1;
+    background-color: #000000;
+    color: #f1f1f1;
+}
+.rateButEOff{
+    background-color: transparent;
+    color: #000000;
+}
+.rateButEOn{
+    background-color: #00ff00;
+    color: #000000;
+}
+.iMap{
+    text-align: center;
+}
+.iMap#previewer{
+    display: inline;
+}
+.bDip{
+    width: 100%;
+}
+.bDipC{
+    width: 100%;
+    text-align: center;
+}
+@media all and (max-width : 768px) {
+    .rateButE {
+    margin-top: -0.54em;
+    font-size: 12px;
+    height: 40px;
+    }
+}

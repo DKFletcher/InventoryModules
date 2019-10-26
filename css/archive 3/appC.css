@@ -1,0 +1,605 @@
+/* 
+    Created on : 16-Jul-2016, 11:00:59
+    Author     : Fletcher
+*/
+nav.navCon {
+    text-align: centre;
+    margin: 0;
+    padding: 0;
+    background-color: #fffce3;
+}
+nav.navCon ul li {
+    margin: 0px;
+    display: inline-block;
+    float: left;
+    background-color: #fffce3;
+}
+form{
+    text-align: center;
+}
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;        
+}
+.control{
+    width: 100%;
+    float: left;
+}
+.itemDisplay{
+    width: 100%;
+    float: right;
+    color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fffce3;
+    padding-bottom: 0.5em;
+    margin-bottom: -0.5em;
+}
+.navIt{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    background-color: #fffce3;
+    padding: none;
+    border: none;
+    outline: none;
+}
+.buttonRev {
+    float: left;
+    display: inline-block;
+    /*    padding: none;
+        border: none; */
+    background-color: #9b9b8c;/*#34282c;/**#5c821a;/*#0f1b07;/*#23c1d6;/*#bcecfe; /* Green */
+    color: white;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 52px;
+    margin-top: -0.1em;
+    border: none;
+    cursor: pointer;
+}
+.buttonRev:hover{
+    background-color:  #9b9b8c;/*#fffce3;/*#34282c;/*#5c821a;/*#0f1b07;/*#23c1d6;/*#c4d1e3;*/
+    color: black;
+}
+.buttonRev:focus {
+    background-color: #9b9b8c;
+    color: white;
+    outline: 0;
+}
+.button{
+    float: left;
+    width: 50%;
+    display: inline-block;
+    border: 1px;
+    cursor: pointer;
+}
+.buttonFfwd {
+    float: left;
+    display: inline-block;
+    /*    padding: none;
+        border: none;*/
+    background-color: #9b9b8c;/*#34282c;/*#5c821a;/*#0f1b07;/*#23c1d6;/*#bcecfe; /* Green */
+    color: white;/*#222222;*/
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 52px;
+    margin-top: -0.1em;
+    border: none;
+    cursor: pointer;
+}
+.buttonFfwd:hover {
+    background-color: #9b9b8c;/*#fffce3;/*#34282c;/*#5c821a;/*#0f1b07;/*#23c1d6;/*#c4d1e3;*/
+    color: black;
+}
+.buttonFfwd:focus {
+    background-color: #9b9b8c;
+    color: white;
+    outline: 0;
+}
+.ender{
+    float: none;
+    display: inline-block;
+    background-color: #fffce3; /* Green */
+    
+    /*    color: #cccccc;*/
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    margin-top: 0.4em;
+}
+
+.progRoc{
+    float: none;
+    display: inline-block;
+    background-color: #34282c;/*#c6d166;/*#c3eedf; /* Green */
+    /*    color: #cccccc;*/
+    width: 100%;
+}
+.progButOff {
+    float: left;
+    display: inline-block;
+    /*    padding: none;
+        border: none;*/
+    background-color: #fffce3;/*#c6d166;/*#fffce3;/*#00795f; /* Green */
+    width: 6.25%;
+    height: 20px;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-bottom: -0.3em;
+}
+.progBut {
+    float: left;
+    display: inline-block;
+    /*    padding: none;
+        border: none;*/
+    background-color: #000000;/*#00795f; /* Green */
+    width: 6.25%;
+    height: 20px;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer; 
+    margin-bottom: -0.3em;
+}.progBut:hover {
+    background-color: #5c821a;/*#c4d1e3;*/
+}
+.progButUp{
+    background-color: #9b9b8c;/*black;/*#5c821a;/*#c4d1e3;*/
+}
+.progButUsed{
+    background-color:#c6d166;/*#c6d166;/*white;/*#bcecfe;*/
+}
+
+.rateRoc{
+    float: none;
+    display: inline-block;
+    background-color: Transparent; /* Green */
+    /*    color: #cccccc;*/
+    width: 100%;
+}
+.rateBut {
+    float: left;
+    display: inline-block;
+    width: 6.25%;
+    height: 40px;
+    outline: none;
+    padding: 0;
+    cursor: pointer; 
+    margin-bottom: -0.9em;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    border-radius: 50px;
+}
+.rateBut:hover {
+    background-color: #c6d166;
+    color: #0f1b07;
+    font-weight: bold;
+    font-size: 200%;
+}
+.rateButOff{
+    border: none;
+    background-color: transparent;
+    color: #000000;
+}
+.rateButOn{
+    border: 1px solid #000000;
+    background-color: #c6d166;
+    color: #0f1b07;
+    font-weight: bold;
+    font-size: 200%;
+}
+abbr{    
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+.intenseBut {
+    float: left;
+    display: inline-block;
+    width: 6.25%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer; 
+    margin-bottom: -0.9em;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    border-radius: 50px;
+}
+.intenseBut:hover {
+    background-color: #c6d166;
+    color: #0f1b07;
+    font-weight: bold;
+    font-size: 200%;
+}
+.intenseButOff{
+    background-color: transparent;
+    color: #000000;
+}
+.intenseButOn{
+    border: 1px solid #000000;
+    background-color: #c6d166;
+    color: #0f1b07;
+    font-weight: bold;
+    font-size: 200%;
+}
+.commentText{
+    background: url("../images/comment.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-color: #ededed;
+    text-indent: 20px;
+    margin: none;
+    border: none;
+    height: 100px;
+    rows: 5;
+    padding: 0;
+    outline: none;
+    resize: none;
+    width: 100%;
+}
+.genComText{
+/*    background: url("..//images/wml2/generalComments.jpg");
+    background-repeat: no-repeat;
+    background-position: center;*/
+    display: block;
+    background-color: #ffffbf;
+    text-indent: 20px;
+    margin: none;
+    border: none;
+    height: 100px;
+    rows: 5;
+    padding: 0;
+    outline: none;
+    resize: none;
+    width: 100%;
+}
+.item{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    not supported by any browser */
+}
+.park{
+    opacity: 1;
+    background: none;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;    
+}
+.on{
+    opacity: 1;
+    color: #0f1b07;
+    background-color: #c6d166;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;    
+}
+.onFeelGood{
+    opacity: 1;
+    background-color: #c6d166;
+    color: #0f1b07;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;    
+}
+.onFeelBad{
+    opacity: 1;
+    background-color: #c6d166;
+    color: #0f1b07;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;    
+}
+.off{
+    opacity: 0.15;
+    color: #0f1b07;
+    background: none;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;    
+
+}
+.redFlag{
+    opacity: 1;
+    background-color: #ffebf6;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;    
+
+}
+.itemFocusOn{        
+    border-top-style: solid;       
+    border-bottom-style: solid;        
+    border-width: 1px;
+}
+section.instructions{  
+    margin-top: -2em;
+}
+.qC{
+    text-align: center;
+}
+canvas#ringG{
+    background-color: #ffbfbf;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 400px;
+    height: 200px;
+}
+section.beginEnd{
+    height:  225px;
+}
+hr.qNavSep{
+
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    border-style: inset;
+    border-width: 0px;
+}
+.previewer{
+    border: none;
+}
+.qCon{}
+.pdfobject-container{
+    height: 500px;
+}
+h4{
+    padding: 0px;
+    margin-top: -1.5em;
+    font-size: x-small;
+    text-align: right;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    color: black;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+.butPol {
+    /*float: left;*/
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    border-radius: 50px;
+    background-color: #9b9b8c;/*#34282c;/*#5c821a;/*#0f1b07;/*#fea680/*#4cdef5/*#23c1d6;*/
+    color: white;
+}
+.butPol:focus {
+    outline: 0;
+}
+.butPolOn{
+    background-color: #c6d166;
+    color: #0f1b07;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid #000000;
+}
+.butPolOff{
+    background-color: white;
+    color: black;
+}
+#tooltipJS
+{
+    text-align: center;
+    color: #fff;
+    background: #111;
+    position: absolute;
+    z-index: 100;
+    padding: 15px;
+} 
+    #tooltipJS:after  triangle decoration 
+    {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #111;
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        margin-left: -10px;
+    } 
+        #tooltipJS.top:after
+        {
+            border-top-color: transparent;
+            border-bottom: 10px solid #111;
+            top: -20px;
+            bottom: auto;
+        } 
+        #tooltipJS.left:after
+        {
+            left: 10px;
+            margin: 0;
+        } 
+        #tooltipJS.right:after
+        {
+            right: 10px;
+            left: auto;
+            margin: 0;
+        }
+        
+        
+/*tooltip container*/
+.tooltip{
+    position: relative;
+    display: inline-block;
+}
+/*tooltip text*/
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 12px;
+    
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /*fade-in tool-tip*/
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/*tooltip arrow*/
+.tooltip .tooltiptext::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+/*Show the tooltip text when uyou mouse over the container*/
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+table, th, td{
+    border: 1px solid black; 
+    border-collapse: collapse;
+}
+.tab {
+    overflow: hidden;
+    border: none;/*1px solid #ccc;*/
+    border-top: 5px solid #9b9b8c;
+    background-color: #9b9b8c;/*#f1f1f1;*/
+}
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-left: 5px solid #9b9b8c;
+}
+.tab button:hover{
+    background-color: #ddd;
+}
+.tab button:focus{
+    background-color: #fffce3;;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+.tabcontent{
+    display: none;
+    padding: 6px 12px;
+    border: 5px solid #9b9b8c;
+    border-top: none;
+}
+
+@media all and (max-width : 850px) {
+    .loTa{
+        display: none;
+    }
+}@media all and (min-width : 850px) {
+    .taTa{
+        display: none;
+    }
+}
+.positionTable{}
+.tablinks{
+    color: white;
+    font-size: 20px;
+}
+.tablinks:focus{
+    color: black;
+}
