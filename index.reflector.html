@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/except.css">
+        <link rel="stylesheet" href="css/appC.css">
+        <link rel="shortcut icon" href="images/beringSmall.ico">
+        <title>Inventory Hoist</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="content">
+                <header style="background: khaki;">
+                    <h1 style="color: black;">Inventory Hoist</h1>
+                </header>
+
+                <nav></nav>
+                <div id="topher"></div>
+                <br>
+                <div class='tab'>
+                    <div style='text-align: center; color: white; font-size: x-large;'><b>INFO</b></div>
+                    <button class='tablinks' onclick="openTab(event, 'p1')" id='defaultOpen'>Purpose</button>
+                    <button class='tablinks' onclick="openTab(event, 'p6')">Theory</button>
+                    <button class='tablinks' onclick="openTab(event, 'p2')">Benefits</button>
+                    <button class='tablinks' onclick="openTab(event, 'p3')">Chart</button>
+                    <button class='tablinks' onclick="openTab(event, 'p4')">In Schools</button>
+                    <button class='tablinks' onclick="openTab(event, 'p5')">Follow Up</button>
+                    <button class='tablinks' onclick="openTab(event, 'p7')">Groups</button>
+                </div>
+                <!--<section>-->
+                <div id='p1' class='tabcontent'>
+                    <h1>What is the Reflector?</h1>
+                    <p>We are not aware of how much our emotions pervade our thoughts, attitudes and behaviour.  We often don’t know how we feel, especially when our emotions have become tangled. Yet we rarely stop and think about our emotions. As the way we feel is so vital to the way we live and learn, it will pay dividends to spend some time reflecting on the state of play of our emotions.</p>
+                    <p>The Reflector tool invites you to consider the feelings you currently have in a context of your choice, or your life in general. It invites you to use rating scales to capture how often and how strongly you feel each of forty carefully selected and defined emotions. You are also asked whether your current experience of each emotion feels good or feels bad. Responses are collated and displayed in a chart.</p>
+                    <p>The Reflector has been designed for insight and discussion. It is not a psychometric instrument. You are completing it for yourself. You will get the most out of it if you can discuss it with a colleague of friend.</p>
+                </div>
+                <div id='p2' class='tabcontent'>
+                    <h1>What is the Value of Emotional Reflection</h1>
+                    <div>When we can reflect accurately on what we feel</div>
+                    <ul>
+                        <li>we can recognise discrete emotions rather than a mix of emotions or general feelings</li>
+                        <li>our emotions provide richer information and deeper meaning</li>
+                        <li>we can identify the causes of our emotions and so make a sensible response</li>
+                        <li>we can experience difficult emotions with more perspective and less toxicity</li>
+                        <li>we can evaluate what difficult emotions are telling us to do rather than dwell on why we feel so badly.</li>
+                    </ul>
+                </div>
+                <div id='p3' class='tabcontent'>
+                    <h1>What does my chart mean?</h1>
+                    <a target="_blank" href="images/chartHandout.pdf"><img src="images/PDF.jpg" alt="PDF button"></a>
+                    <p>The Reflector is designed to allow you to consider your emotions within the Ring of Preferences, outlined in <i>Knowing and Growing</i> (Mclean 2017).  The ring formed by our ‘feel good preferences’ provides an objective and non-judgemental framework to consider your emotions and their impact on your wellbeing.</p>
+                    <p>The ER provides the following measures</p>
+                    <ul>
+                        <li>Your <i>Feel Good Score</i> is defined by you. It is the percentage of your 'feel good' selections</li>
+                        <li><i>Wellbeing</i> is a measure of what the theory says is good for you and is given by the % of the total ratings in the top half of the ring</li>
+                        <li>Your percentage share of each of the quadrants</li>
+                        <li>Your average rating for the emotions in each quadrant</li>
+                        <li>Your emotions within each of the quadrants are listed in rank order</li>
+                    </ul>
+                    <p>These measures are provided to help your thinking. You are not comparing yourself to others or a norm or a standard. This is not a profile of you as a person, but rather a snapshot of the emotions passing through at one particular time/context.</p>
+                    <p>The frequency and intensity ratings for each emotion are multiplied together to create a score on a twenty-five-point scale.</p>
+                    <div class="loTa">
+                        <table >
+                            <tr style='text-align: center;'>
+                                <td style='width: 6%;background-color: #ffffcc'>0</td>
+                                <td style='width: 6%;background-color: #ffffcc'>1</td>
+                                <td style='width: 6%;background-color: #ffffcc'>2</td>
+                                <td style='width: 6%;background-color: #ffff99'>3</td>
+                                <td style='width: 6%;background-color: #ffff99'>4</td>
+                                <td style='width: 6%;background-color: #ffff99'>5</td>
+                                <td style='width: 6%;background-color: #ffff66'>6</td>
+                                <td style='width: 6%;background-color: #ffff66'>8</td>
+                                <td style='width: 6%;background-color: #ffff66'>9</td>
+                                <td style='width: 6%;background-color: #ffff66'>10</td>
+                                <td style='width: 6%;background-color: #ffcc00'>12</td>
+                                <td style='width: 6%;background-color: #ffcc00'>15</td>
+                                <td style='width: 6%;background-color: #ffcc00'>16</td>
+                                <td style='width: 6%;background-color: #ff9933'>20</td>
+                                <td style='width: 6%;background-color: #ff9933'>25</td>
+                            </tr>
+
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffffcc'>never, or   no feeling</td>
+                                <td style='background-color: #ffffcc'>hardly ever and very mild</td>
+                                <td style='background-color: #ffffcc'>s/times and very mild, or mild and hardly ever</td>
+                                <td style='background-color: #ffff99'>often and very mild, or strong but hardly ever</td>
+                                <td style='background-color: #ffff99'>most of time but very mild, or very strong but hardly ever, or s/times mild</td>
+                                <td style='background-color: #ffff99'>intense but hardly ever, or all the time but mild</td>
+                                <td style='background-color: #ffff66'>s/times strong, or often but mild</td>
+                                <td style='background-color: #ffff66'>mild most of time or s/times very strong</td>
+                                <td style='background-color: #ffff66'>often strong</td>
+                                <td style='background-color: #ffff66'>s/times intense, or mild all the time</td>
+                                <td style='background-color: #ffcc00'>strong most of the time, or often and very strong</td>
+                                <td style='background-color: #ffcc00'>strong all the time, or often intense</td>
+                                <td style='background-color: #ffcc00'>very strong most of the time</td>
+                                <td style='background-color: #ff9933'>always very strong or intense most of time</td>
+                                <td style='background-color: #ff9933'>intense all the time</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="taTa" >
+                        <table style='margin: 1em auto;'>
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffffcc'>never, or   no feeling</td>
+                                <td style='width: 6%;background-color: #ffffcc'>0</td>
+                            </tr> 
+                            <tr style='text-align: center;'>   
+                                <td style='background-color: #ffffcc'>hardly ever and very mild</td>
+                                <td style='width: 6%;background-color: #ffffcc'>1</td>                             
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffffcc'>s/times and very mild, or mild and hardly ever</td>         
+                                <td style='width: 6%;background-color: #ffffcc'>2</td>                       
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffff99'>often and very mild, or strong but hardly ever</td>
+                                <td style='width: 6%;background-color: #ffff99'>3</td>                                
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffff99'>most of time but very mild, or very strong but hardly ever, or s/times mild</td>
+                                <td style='width: 6%;background-color: #ffff99'>4</td>                                
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffff99'>intense but hardly ever, or all the time but mild</td>
+                                <td style='width: 6%;background-color: #ffff99'>5</td>                                
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffff66'>s/times strong, or often but mild</td>
+                                <td style='width: 6%;background-color: #ffff66'>6</td>                                
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffff66'>mild most of time or s/times very strong</td>
+                                <td style='width: 6%;background-color: #ffff66'>8</td>                                
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffff66'>often strong</td>
+                                <td style='width: 6%;background-color: #ffff66'>9</td>                                
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffff66'>s/times intense, or mild all the time</td>
+                                <td style='width: 6%;background-color: #ffff66'>10</td>                                
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffcc00'>strong most of the time, or often and very strong</td>
+                                <td style='width: 6%;background-color: #ffcc00'>12</td>                                
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffcc00'>strong all the time, or often intense</td>
+                                <td style='width: 6%;background-color: #ffcc00'>15</td>                                
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ffcc00'>very strong most of the time</td>
+                                <td style='width: 6%;background-color: #ffcc00'>16</td>                                
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ff9933'>always very strong or intense most of time</td>
+                                <td style='width: 6%;background-color: #ff9933'>20</td>                                
+                            </tr> 
+                            <tr style='text-align: center;'>
+                                <td style='background-color: #ff9933'>intense all the time</td>
+                                <td style='width: 6%;background-color: #ff9933'>25</td>                                
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id='p4' class='tabcontent'>
+                    <h1>Using the Reflector with students</h1>
+                    <p>The Reflector, when completed by young people and shared with teachers, will also help teachers better understand how their students are feeling in school or college and so get to know them better. It facilitates a non-judgemental conversation between teachers and their pupils about the emotions they experience in school that affect their wellbeing and learning.</p>
+                    <p>When students have finished their ratings it will be helpful to invite them to quickly review their ratings to check they are what they intended?</p>
+                </div>
+                <div id='p5' class='tabcontent'>
+                    <h1>Follow up Questions</h1>                    
+                    <a target="_blank" href="images/followUpHandout.pdf"><img src="images/PDF.jpg" alt="PDF button"></a>
+                    <ul>
+                        <li>Does the chart reflect how you are feeling?</li>
+                        <li>Does anything surprise you?</li>
+                        <li>What do your big feel good and feel bad emotions tell you?</li>
+                        <li>What triggers these emotions?  What are they about?</li>
+                        <li>Thinking about your most troubling emotions - What do you tell yourself about these emotions?</li>
+                        <li>Would you say the same things to someone else who was having these feelings? Are there more useful messages to take from these emotions?</li>
+                        <li>Could any of your top feel good emotions be used to combat your most unwanted emotions?</li>
+                        <li>How have your emotions changed over time?</li>
+                    </ul>
+                </div>
+                <div id='p6' class='tabcontent'>
+                    <h1>What is the thinking behind the chart?</h1>
+
+                    <a target="_blank" href="images/theoryHandout.pdf"><img src="images/PDF.jpg" alt='PDF button'></a>
+                    <p>Emotions help us to evaluate what is happening to us. They signal our needs and how well we are meeting these needs. Emotions are closely linked to our motives because they drive us to meet our needs.</p>
+                    <p>Autonomy, or self-direction, is our super-motive. However, self-direction is always in relation to others; we have to balance our own needs with the needs of others. This conundrum lies at the heart of human relationships. Unsurprisingly, most of our emotions are mainly about our self-direction in relation to our goals and other people.</p>
+                    <p>The ring model illuminates two preferences, namely <i>making our mark</i> and <i>being part of things</i>.  We are driven by both, to a greater or lesser extent although most of us will have a preference for one or the other. The preferences are represented as spirals.  Each spiral has an optimal mid-point and two extremes, one showing too much of the given quality and the other too little.</p>
+                    <div style='text-align: center;'><img src="images/eMore1.jpg" alt='Split Rings'><br><b>Figure 1 The Preferences</b></div>
+                    <p>When put together the spirals form a ring. The upper half of the ring shows the spirals in balance, where the preferences are of similar weight. As we progress around the ring in either direction we can chart the increasing imbalance between the spirals. In the upper half the effect is bright and emotionally uplifting, below it spirals downwards into the dark side of the Ring.</p>
+                    <div style='text-align: center;'><img src="images/eMore2.jpg" alt='Split Rings'><br><b>Figure 2 The Ring of Preferences and the Emotion Quadrants</b></div>
+                    <p>The ring is divided into quadrants. The chart gives us a picture of our current emotional state. It is best used to discuss what is enriching us and what is potentially draining or distracting us. The model helps us to make sense of what's happening to us and how we can best respond. It can aid us to better understand the purpose of each emotion and how emotions can get us into trouble as well as help us. It can also help us discover our own emotional recipe for our wellbeing.</p>
+                </div>                
+                <div id='p7' class='tabcontent'>
+                    <p>You can collate a number of individual profiles to discover:</p>
+                    <ul>
+                        <li>the overall positivity of a group</li>
+                        <li>the most commonly experienced emotions within a group</li>
+                    </ul>
+                    <p>Please contact us to discuss how you can purchase the Assembly programme that enables this.</p>
+                </div>
+                <script>
+                    function openTab(evt, tabName) {
+                        var i, tabcontent, tablinks;
+                        tabcontent = document.getElementsByClassName('tabcontent');
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = 'none';
+                        }
+                        tablinks = document.getElementsByClassName('tablinks');
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(' active', '');
+                        }
+                        document.getElementById(tabName).style.display = 'block';
+                        evt.curentTarget.classNAme = " active";
+                    }
+                    document.getElementById('defaultOpen').click();
+                </script>
+                <div id="mainModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>what motivates learning</h2>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                        <div class="modal-footer">
+                            <h2>what motivates learning</h2>
+                        </div>
+                    </div>
+                </div>
+                <div id = 'rsIns'></div>
+                <section class='previewer'>
+                    <div id="viewer"></div>
+                </section>
+                <div class="qCon"></div>
+                <br>
+                <br>
+                <br>
+                <div class="positionTable"></div>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+        <footer style="background: khaki;">
+            <h1 style="color: black;">Inventory Hoist</h1>
+        </footer>
+        <script src='jsLIB/jquery-3.2.1.min.js'></script>
+        <script src='jsLIB/snap.svg.js'></script>
+        <script src='jsLIB/jsPDF.min.js'></script>
+        <script src='jsLIB/jspdf.plugin.autotable.min.js'></script>
+        <script src='jsLIB/MainMenu.js'></script>
+
+
+
+        <script src="jsLIB/Global.js"></script>
+        <script src="jsLIB/Smelter.js"></script>
+        <script src="jsLIB/Miner.js"></script>
+        
+        <script>
+            $('body').append($("<div id='bg'><img src='images/wml.png' alt=''></div>"));
+        </script>
+
+
+
+        <script src="jsLIB/Assets.js"></script>
+        <script src="jsLIB/PDFAssembly.js"></script>
+        <script src='jsLIB/FileSaver.js'></script>
+        <script src="jsLIB/DomDoc.js"></script>
+        <script src="jsLIB/ringControl.js"></script>
+        <script src="jsLIB/aspire.js"></script>
+        <script src="jsLIB/RingIO.js"></script>
+        <script src="jsLIB/TwoByThree.js"></script>
+        <script src="jsLIB/IDK.js"></script>
+        <script src="jsLIB/XMLFilter.js"></script>
+        <script src="jsLIB/Progress.js"></script>
+        <!--<script src="jsLib/Preview.js"></script>-->
+        <script src="jsLIB/MetaData.js"></script>
+        <script src="jsLIB/ModalDisplay.js"></script>
+        <script src="jsLIB/Chart_blank.js"></script>
+        <script src="jsLIB/emoproIns.js"></script>
+        <script src="jsLIB/Page2.js"></script>
+        <script src="jsLIB/Page3.js"></script>
+        <script src="jsLIB/ToolTip.js"></script>
+
+
+        <script src="jsLIB/PositionTable.js"></script>
+        <script>
+                        $(document).ready(function () {
+                            $('h1.header').text('Inventory Hoist: ' + BERING.title);
+                            var loc = String(window.location.href);
+                        });
+        </script>
+    </body>
+</html>

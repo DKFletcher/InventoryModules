@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/appC.css">
+        <link rel="stylesheet" href="css/except.css">
+        <link rel="stylesheet" href="css/slicknav.css" />
+        <link rel="shortcut icon" href="images/beringSmall.ico">
+
+        <title>Inspire Ring (Younger Learners)</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="content">
+                <header>
+                    <div id="nav-wrapper">
+                        <div id='nav'></div>
+                    </div>
+                </header>
+                <nav></nav>
+                <section>
+                    <div  id="copyHeader11" >
+                        <div id="topher"></div>
+                        <p>The Inspire Ring (for learners age 8 and over) consists of 20 paired descriptions that profile a teacher's Teaching Style. It invites the learners to select the descriptions that best describe their teacher. The Ring helps learners make sense of the teacher's attitude to and relationships with pupils. The Inspire Ring gives immediate feedback to the teacher in the form of a personal chart, allowing a structured and focused discussion of the teacher's strengths and issues for development. </p>
+                        <p>It gives four bits of information:</p>
+                        <ul>
+                            <li>overall inspiration score from 0 to 100%</li>
+                            <li>your balance between <i>support</i> and <i>challenge</i> e.g. 60% to 40%</li>
+                            <li>a % score for each of the styles</li>
+                            <li>your specific strengths and issues</li>
+                        </ul>
+                        <p>You can create a collated report of a group of learners through <b><i>ASSEMBLY</i></b>. See resources for more information.</p>
+                    </div>
+                </section>
+                <div id="mainModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <!--<span class="close">&times;</span>-->
+                            <h2>what motivates learning</h2>
+                        </div>
+                        <div class="modal-body">
+                        </div>
+                        <div class="modal-footer">
+                            <h2>what motivates learning</h2>
+                        </div>
+                    </div>
+                </div>              
+                <section class="instructions" id="above">
+                    <h1>Instructions</h1>
+                    <p>Read each pair of descriptions. Select the one that best <b><i>DESCRIBES YOUR TEACHER</i></b> to highlight green. If both descriptions describe your teacher, select both. If neither statement describe your teacher, select until they fade.</p>
+                </section>
+
+
+                <div class="qCon"></div>
+                <section class="instructions" id="below"></section>
+                <section class='previewer'>
+                    <div id="viewer"></div>
+                </section>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+        <script src="jsLIB/Archive/jquery-3.2.1.min.js"></script>
+        <script src="jsLIB/Archive/snap.svg-min.js"></script>
+        <script src='jsLIB/jsPDF.1.5.3.min.js'></script>
+        <script src='jsLIB/Archive/jspdf.plugin.autotable.min.js'></script>
+
+
+        <script src="jsLIB/Global.js"></script>
+        <script src="jsLIB/Smelter.js"></script>
+        <script src="jsLIB/Miner.js"></script>
+
+
+        <script src="jsLIB/Assets.js"></script>
+        <script src="jsLIB/PDFAssembly.js"></script>
+        <script src='jsLIB/FileSaver.js'></script>
+        <script src="jsLIB/DomDoc.js"></script>
+        <script src="jsLIB/ringControl.js"></script>
+        <script src="jsLIB/aspire.js"></script>
+        <script src="jsLIB/RingIO.js"></script>
+        <script src="jsLIB/TwoByThree.js"></script>
+        <script src="jsLIB/IDK.js"></script>
+        <script src="jsLIB/XMLFilter.js"></script>
+        <script src="jsLIB/Progress.js"></script>
+        <!--<script src="jsLib/Preview.js"></script>-->
+        <script src="jsLIB/MetaData.js"></script>
+        <script src="jsLIB/ModalDisplay.js"></script>
+        <script src="jsLIB/iOS.js"></script>
+
+
+        <script src="jsLIB/Archive/Chart_blank.js"></script>
+        <script src="jsLIB/Archive/emoproIns.js"></script>
+        <script src="jsLIB/Archive/Page2.js"></script>
+        <script src="jsLIB/Archive/Page3.js"></script>
+        <script src="jsLIB/Archive/ToolTip.js"></script>
+
+
+        <script src="jsLIB/Archive/PositionTable.js"></script>
+        <footer></footer>
+        <!--        <footer style="background: khaki;">
+                    <h1 style="color: black;">Inventory Hoist</h1>
+                </footer>-->
+        <script>
+            $('body').append($("<div id='bg'><img src='images/wml.png' alt=''></div>"));
+            $(document).ready(function () {
+                $('h1.header').text('Inventory Hoist: ' + BERING.title);
+                var loc = String(window.location.href);
+            });
+        </script>
+    </body>
+</html>
