@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="b051214-Page_x25_201" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 800 540" style="enable-background:new 0 0 800 540;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#AAAAAA;}
+	.st2{opacity:0.302;fill:#9B9B8C;enable-background:new    ;}
+	.st3{fill:none;stroke:#333333;}
+	.st4{fill:none;stroke:#888888;stroke-width:2;}
+	.st5{fill:none;stroke:#000000;}
+</style>
+<path class="st0" d="z"/>
+<g>
+	<path class="st1" d="M400,340.2c50.3,0,96.3-37,96.6-89.7c4.9-55.8-40.6-106.8-95.4-110.1c-62.6,0-118.5,46.7-118.1,109.8
+		c-0.9,69.8,51.2,125.9,117.1,130.4 M400.5,340v40.7 M312.9,250.8c0-49.4,39.4-89.5,87.4-89.5s86.4,40.1,86.4,89.5
+		s-38.9,89.5-86.9,89.5S312.9,300.2,312.9,250.8z"/>
+	<path class="st2" d="M400,340.2c50.3,0,95.7-39.3,96.1-89.7c1.5-57.4-40.1-107.3-94.8-110.1c-62.6,0-118.5,46.7-118.1,109.8
+		c-0.4,69.5,51.2,125.9,117.1,130.4 M400,340.5v40.1 M273.4,250.8c0-71.9,56.6-130.1,126.4-130.1s126.4,58.3,126.4,130.1
+		s-56.6,130.1-126.4,130.1S273.4,322.6,273.4,250.8z"/>
+	<path class="st3" d="M303.7,228l-4.7,8l-1.4-10.1"/>
+	<path class="st3" d="M516,226.1l-1.7,8.4L510,227"/>
+	<path id="Line" class="st4" d="M242.4,0l131.3,165.1"/>
+	<path id="Line2" class="st4" d="M425.8,165.1L559,0.1"/>
+	<path id="Line3" class="st4" d="M312.5,250.5H0.5"/>
+	<path id="Line4" class="st4" d="M799.5,250.5h-313"/>
+	<path id="Line5" class="st4" d="M0.5,366.5l320-79"/>
+	<path id="Line6" class="st4" d="M0.5,539.5l344.9-219.3"/>
+	<path id="Line7" class="st4" d="M272.5,540.5l114.4-200.6"/>
+	<path id="Line8" class="st4" d="M507.5,539.5l-95.8-199.9"/>
+	<path id="Line9" class="st4" d="M799.5,539.5l-344-219"/>
+	<path id="Line10" class="st4" d="M799.5,365.5l-321-76"/>
+	<path id="Ellipse" class="st5" d="M299.3,233c3.3-20.3,12.5-38.6,25.8-53"/>
+	<path id="Ellipse2" class="st5" d="M491.2,180c11.6,15.1,19.6,33.2,22.5,53"/>
+	<path class="st5" d="M0,0h800v540H0V0z"/>
+</g>
+<path class="st0" d="z"/>
+</svg>
