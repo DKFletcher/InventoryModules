@@ -214,9 +214,9 @@ BERING.questionaire = (function () {
         });
         $(".butPol").click(function () {
             $(this).trigger("polarity:toggle");
-        });      
+        });
         $(".butPol").on('touchstart',function () {
-            $(this).trigger("polarity:toggle");            
+            $(this).trigger("polarity:toggle");
         });
         $(".butPol").on("polarity:toggle", function () {
             if (commentControl) {
@@ -388,7 +388,7 @@ BERING.questionaire = (function () {
         $(".rateBut").click(function () {
             var evtPass = String(String(this.id.charAt(3)) + String(this.id.charAt(4)));
             $(this).trigger("ratingChoice:toggle", evtPass);
-        });        
+        });
         $(".rateBut").on('touchstart', function () {
             var evtPass = String(String(this.id.charAt(3)) + String(this.id.charAt(4)));
             $(this).trigger("ratingChoice:toggle", evtPass);
@@ -446,7 +446,7 @@ BERING.questionaire = (function () {
             var evtPass = String(String(this.id.charAt(3)) + String(this.id.charAt(4)));
             $(this).trigger("ratingChoice:toggle", evtPass);
         });
-        
+
         $(".rateBut").on('touchstart', function () {
             var evtPass = String(String(this.id.charAt(3)) + String(this.id.charAt(4)));
             $(this).trigger("ratingChoice:toggle", evtPass);
@@ -694,9 +694,9 @@ BERING.questionaire = (function () {
                 tmp.addClass("on");
             }
         }
-        if (BERING.content[index].comment.length > 0) {
-            tmp.html(BERING.content[index].item + "<BR><span style ='font-size: 0.5em;'>" + "COMMENT: " + BERING.content[index].comment) + "</span>";
-        }
+        // if (BERING.content[index].comment.length > 0) {
+        //     tmp.html(BERING.content[index].item + "<BR><span style ='font-size: 0.5em;'>" + "COMMENT: " + BERING.content[index].comment) + "</span>";
+        // }
     }
     function uiRF() {
         if (itemFocus !== -1) {
@@ -764,4 +764,3 @@ BERING.questionaire = (function () {
         resize: uiRS
     };
 }());
-
