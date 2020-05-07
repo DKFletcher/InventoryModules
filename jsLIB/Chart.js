@@ -1,4 +1,4 @@
-/* 
+/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -21,7 +21,8 @@ BERING.Chart = (function () {
         spiral(doc, 44, 31);
         ringBack(doc, 31.15, 249, 249, 249);
         shim(doc, 44, 31);
-        hangins(doc, 44, 31);
+        // hangins(doc, 44, 31);
+        promoHangings(doc);
         return doc;
     }
     function promo_pdf(doc) {
@@ -95,7 +96,7 @@ BERING.Chart = (function () {
         var width = 207 + ca;
         var bringItIn = 0;
         var t_width = 55;
-        
+
         doc.setFillColor(255, 255, 191);
         doc.setDrawColor(170, 170, 170);
         doc.setLineWidth(1);
@@ -534,7 +535,7 @@ BERING.Chart = (function () {
     function promoHangings(doc) {
         doc.setFontSize(18);
         var x_ = 8 + inPage;
-        var y_ = 201;
+        var y_ = 203;
         doc.setTextColor(12, 159, 165);
         doc.text("what", x_, y_);
         doc.setTextColor(204, 51, 255);
@@ -544,7 +545,7 @@ BERING.Chart = (function () {
         doc.setTextColor(101, 165, 152);
         doc.text(".com", x_ + 64.5, y_);
         doc.setTextColor(0, 0, 0);
-        doc.text(BERING.title, 298 - inPage, y_, 'right');
+        doc.text(BERING.title, 290 - inPage, y_, 'right');
         if ($("input:text").val().length > 0) {
             var inputText = $("input:text").val();
             var textWrap = doc.splitTextToSize(inputText, 50, false);
@@ -562,7 +563,7 @@ BERING.Chart = (function () {
         var dat = new Date();
         var year = dat.getFullYear();
         var month = dat.getMonth() + 1;
-        var date = dat.getDate();
+        var date = dat.getDate()+10;
         doc.text(date + ' - ' + month + ' - ' + year, 26, 32, 90);
 
     }
@@ -799,6 +800,7 @@ BERING.Chart = (function () {
         doc.setLineWidth(1);
         doc.rect(8 + inPage, 94, 282 - 2 * inPage, 102, 'FD');
     }
+
     return{
         makeChart: p_pdf,
         makePromotion: promo_pdf

@@ -525,6 +525,39 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/completed rings/current/Global.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/completed rings/current/Global-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/completed rings/current/Miner.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/completed rings/current/Miner-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/completed rings/current/Smelter.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/completed rings/current/Smelter-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/completed rings/inspire express/Global.js": {
 		"bF": 0,
 		"ft": 64,

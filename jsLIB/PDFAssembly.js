@@ -37,7 +37,7 @@ BERING.PDF = (function () {
         if (BERING.iOS.isApl()) {
             //var blobPDF = doc.output('dataurlnewwindow');
             //
-//https://stackoverflow.com/questions/39689171/rename-blob-form-append            
+//https://stackoverflow.com/questions/39689171/rename-blob-form-append
 //             var blob = doc.output("blob");
 //            var data=new FormData();
 //            data.append('file',blob,'test.pdf')
@@ -79,11 +79,11 @@ BERING.PDF = (function () {
         var aspectwidth1 = (height - h1) * (10.8 / 16);
         BERING.Chart.makeChart(doc);
         doc.setFontSize(12);
-        if ($("input:text").val().length > 0) {
-            var inputText = $("input:text").val();
-            var textWrap = doc.splitTextToSize(inputText, 50, false);
-            doc.text(inputText, 25, 196, undefined, 90);
-        }
+        // if ($("input:text").val().length > 0) {
+        //     var inputText = $("input:text").val();
+        //     var textWrap = doc.splitTextToSize(inputText, 50, false);
+        //     doc.text(inputText, 25, 196, undefined, 90);
+        // }
         if (BERING.UItype === 1 && BERING.compat !== "120217") {
             doc.setFontSize(12);
         } else {
@@ -324,7 +324,3 @@ BERING.PDF = (function () {
         pdfLoad: pdf
     };
 }());
-
-
-
-

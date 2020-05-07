@@ -369,12 +369,12 @@ BERING.questionaire = (function () {
         itemSection.css("background-image", "url('../images/tree.png')");
         itemSection.append($("<div id='item0' ></div>"));
         $("#item0").append($("<p class='item' id='0'></p>").text(BERING.content[0].item));
-        $("#item0").append($("<div class='rateRoc' id='0s'></div>"));
+        $("#item0").append($("<div class='rateRoc' id='0s'></div><br>"));
         makeRate('#0s');
         itemSection.append($("<br>"));
         itemSection.append($("<div id='item1' ></div>"));
         $("#item1").append($("<p class='item' id='1'></p>").text(BERING.content[1].item));
-        $("#item1").append($("<div class='rateRoc' id='1s'></div>"));
+        $("#item1").append($("<div class='rateRoc' id='1s'></div><br>"));
         makeRate('#1s');
         itemSection.append($("<br>"));
         itemSection.append($("<div id='item2' ></div>"));

@@ -5,27 +5,24 @@
  */
 
 var BERING = BERING || {};
-BERING.begining = false;
+BERING.begining = true;
 BERING.content = [];
 BERING.end = false;
-BERING.title = "Aspire Ring Further";
-BERING.intro = "As a learner...";
 
 
-
-BERING.title = "Aspire Ring Further";
-BERING.outside='Fair to Others';
-BERING.inside='Fair to Self';
-BERING.attitude='ASPIRATION';
-
+BERING.title = "Inspire Ring Parent";
+BERING.outside='Support';
+BERING.inside='Challenge';
+BERING.attitude='INSPIRATION';
 
 
-BERING.compat="030916";
-BERING.onPage=3;
-BERING.UItype=3;
+BERING.intro = "I am the kind of parent who...";
+BERING.compat = "110217";
+BERING.onPage = 2;
+BERING.UItype=4;
 $(document).ready(function () {
     BERING.assets.setAssets();
     BERING.DOMQMenu.make();
     BERING.ring.initRing(BERING.ore.current());
-    BERING.questionaire.getUI(3);
+    BERING.questionaire.getUI();
 });
